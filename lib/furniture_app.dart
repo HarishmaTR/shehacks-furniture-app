@@ -29,7 +29,7 @@ class Furniture extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
-                      padding: EdgeInsets.fromLTRB(10, 137, 10, 0),
+                      padding: EdgeInsets.fromLTRB(10, 100, 10, 0),
                       child: TextField(
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.w700),
