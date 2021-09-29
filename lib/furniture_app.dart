@@ -86,9 +86,7 @@ class Furniture extends StatelessWidget {
                     },
                   )),
                   Container(
-                      child: Row(
-                    children: [
-                      Container(
+                    
                           child: TextButton(
                         child: Text("sign Up",
                             style: TextStyle(
@@ -97,12 +95,11 @@ class Furniture extends StatelessWidget {
                           Navigator.push(context,
                               MaterialPageRoute(builder: (_) => SignUp()));
                         },
-                      ))
-                    ],
-                  )),
-                  Container(
-                      child: Row(
-                    children: [
+                      )),
+                    
+                  
+                  
+                     
                       Container(
                           child: TextButton(
                         child: Text("Forget Password",
@@ -113,8 +110,8 @@ class Furniture extends StatelessWidget {
                               MaterialPageRoute(builder: (_) => Password()));
                         },
                       ))
-                    ],
-                  ))
+                    
+                  
                 ],
               ),
               //padding:
