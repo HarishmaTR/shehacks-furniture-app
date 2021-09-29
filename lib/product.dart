@@ -53,42 +53,7 @@ class Product extends StatelessWidget {
                     },
                   ),
 
-                  //RaisedButton(
-                  //   onPressed: () {
-                  //     //      Navigator.push(context,
-                  //     //         MaterialPageRoute(builder: (_) => Chairdetails()));
-                  //   },
-                  //   color: Color(0xFF682704),
-                  //   shape: RoundedRectangleBorder(
-                  //       borderRadius: BorderRadius.circular(10)),
-                  //   child: Text("",
-                  //       style: TextStyle(
-                  //         color: Colors.white,
-                  //         fontSize: 16,
-                  //       )),
-                  // ),
-
-                  // ElevatedButton(
-                  //   style: ElevatedButton.styleFrom(
-                  //     primary: Colors.brown[700],
-                  //   ),
-                  //   child: Text("Sofa"),
-                  //   onPressed: () {
-                  //     Navigator.push(
-                  //         context, MaterialPageRoute(builder: (_) => Sofa()));
-                  //   },
-                  // ),
-
-                  // child: ElevatedButton(
-                  //   style: ElevatedButton.styleFrom(
-                  //     primary: Colors.brown[700],
-                  //   ),
-                  //   child: Text("Sofa"),
-                  //   onPressed: () {
-                  //     //           //  Navigator.push(
-                  //     //           //      context, MaterialPageRoute(builder: (_) => Product()));
-                  //   },
-                  // ),
+                  
                 ),
               ),
               Expanded(
