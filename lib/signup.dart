@@ -15,6 +15,8 @@ class SignUp extends StatelessWidget {
                   border: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.red, width: 5.0),
                   ),
+                  focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.brown.shade900)),
                   hintText: "Name"),
             )),
         Container(
@@ -25,6 +27,8 @@ class SignUp extends StatelessWidget {
                   border: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.red, width: 5.0),
                   ),
+                  focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.brown.shade900)),
                   hintText: "Email or Phone Number"),
             )),
         Container(
@@ -35,6 +39,8 @@ class SignUp extends StatelessWidget {
                   border: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.red, width: 5.0),
                   ),
+                  focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.brown.shade900)),
                   hintText: "Password"),
             )),
         Container(
@@ -45,6 +51,8 @@ class SignUp extends StatelessWidget {
                   border: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.red, width: 5.0),
                   ),
+                  focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.brown.shade900)),
                   hintText: "Confirm Password"),
             )),
         SizedBox(

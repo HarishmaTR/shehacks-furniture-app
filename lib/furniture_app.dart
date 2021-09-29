@@ -16,14 +16,11 @@ class Furniture extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.white,
         body: SafeArea(
-          child:SingleChildScrollView(
-           
-          child: Column
-          (
-            children: // <Widget>
+            child: SingleChildScrollView(
+          child: Column(children: // <Widget>
               [
             Container(
-               height: 800,
+              height: 1200,
 
               decoration: BoxDecoration(
                   image: DecorationImage(
@@ -33,15 +30,18 @@ class Furniture extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
-                      padding: EdgeInsets.fromLTRB(10, 300, 10, 0),
-                      child:Text("Login",style: TextStyle(fontSize: 30,color: Color(0xff2E1503),
-                      fontWeight: FontWeight.bold),)
-
-                  ),
+                      padding: EdgeInsets.fromLTRB(10, 400, 10, 0),
+                      child: Text(
+                        "Login",
+                        style: TextStyle(
+                            fontSize: 30,
+                            color: Color(0xff2E1503),
+                            fontWeight: FontWeight.bold),
+                      )),
                   Container(
                       padding: EdgeInsets.fromLTRB(10, 20, 10, 0),
                       child: TextField(
-                         cursorColor: Colors.black,
+                        cursorColor: Colors.black,
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.w700),
                         decoration: new InputDecoration(
@@ -50,8 +50,8 @@ class Furniture extends StatelessWidget {
                                   BorderSide(color: Colors.red, width: 5.0),
                             ),
                             focusedBorder: OutlineInputBorder(
-                                  borderSide:
-                                      BorderSide(color: Colors.brown.shade900)),
+                                borderSide:
+                                    BorderSide(color: Colors.brown.shade900)),
                             hintText: "Email or phone Number"),
                       )),
                   SizedBox(
@@ -60,8 +60,8 @@ class Furniture extends StatelessWidget {
                   Container(
                       padding: EdgeInsets.fromLTRB(10, 15, 10, 0),
                       child: TextField(
-                         cursorColor: Colors.black,
-                          obscureText: true,
+                        cursorColor: Colors.black,
+                        obscureText: true,
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.w700),
                         decoration: new InputDecoration(
@@ -70,8 +70,8 @@ class Furniture extends StatelessWidget {
                                   BorderSide(color: Colors.red, width: 5.0),
                             ),
                             focusedBorder: OutlineInputBorder(
-                                  borderSide:
-                                      BorderSide(color: Colors.brown.shade900)),
+                                borderSide:
+                                    BorderSide(color: Colors.brown.shade900)),
                             hintText: "Password"),
                       )),
                   Container(
@@ -121,6 +121,6 @@ class Furniture extends StatelessWidget {
               //     padding: EdgeInsets.all(15),
             ),
           ]),
-     ) ));
+        )));
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:furniture_app/furniture_app.dart';
 
-class Shelf extends StatelessWidget {
+class Dining extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -12,13 +12,13 @@ class Shelf extends StatelessWidget {
             children: [
               Expanded(
                 flex: 1,
-                child: Image.asset('assets/Shelf1.jpeg'),
+                child: Image.asset('assets/Table1.jpeg'),
               ),
               Expanded(
                 child: Column(
                   children: [
                     Text(
-                      "Metal Open Book Shelf",
+                      "Wood Dining Set",
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -32,7 +32,7 @@ class Shelf extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Price:18199",
+                      "Price:18290",
                       style: TextStyle(fontSize: 20, color: Color(0xffBA0000)),
                     ),
                     RaisedButton(
@@ -74,13 +74,13 @@ class Shelf extends StatelessWidget {
             children: [
               Expanded(
                 flex: 1,
-                child: Image.asset('assets/Shelf2.jpeg'),
+                child: Image.asset('assets/Table2.jpeg'),
               ),
               Expanded(
                 child: Column(
                   children: [
                     Text(
-                      "Wood Open Book Shelf",
+                      "6 Seater Dining Set",
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -94,7 +94,7 @@ class Shelf extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Price:12000",
+                      "Price:22949",
                       style: TextStyle(fontSize: 20, color: Color(0xffBA0000)),
                     ),
                     RaisedButton(
@@ -136,13 +136,13 @@ class Shelf extends StatelessWidget {
             children: [
               Expanded(
                 flex: 1,
-                child: Image.asset('assets/Shelf3.jpeg'),
+                child: Image.asset('assets/Table3.jpeg'),
               ),
               Expanded(
                 child: Column(
                   children: [
                     Text(
-                      "Smart Open Book Shelf",
+                      "Metal 4 Seater Dining Set",
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -156,7 +156,7 @@ class Shelf extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Price:13000",
+                      "Price:14990",
                       style: TextStyle(fontSize: 20, color: Color(0xffBA0000)),
                     ),
                     RaisedButton(
@@ -198,13 +198,13 @@ class Shelf extends StatelessWidget {
             children: [
               Expanded(
                 flex: 1,
-                child: Image.asset('assets/Shelf4.jpeg'),
+                child: Image.asset('assets/Table4.jpeg'),
               ),
               Expanded(
                 child: Column(
                   children: [
                     Text(
-                      "Semi-Open Book Shelf",
+                      "Wood Dining Set",
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -218,7 +218,7 @@ class Shelf extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Price:17000",
+                      "Price:18049",
                       style: TextStyle(fontSize: 20, color: Color(0xffBA0000)),
                     ),
                     RaisedButton(
@@ -260,13 +260,13 @@ class Shelf extends StatelessWidget {
             children: [
               Expanded(
                 flex: 1,
-                child: Image.asset('assets/Shelf5.jpeg'),
+                child: Image.asset('assets/Table5.jpeg'),
               ),
               Expanded(
                 child: Column(
                   children: [
                     Text(
-                      "Wall Shelf  ",
+                      "Solid 6 Seater Dining Set ",
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
@@ -280,7 +280,7 @@ class Shelf extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Price:10000",
+                      "Price:23477",
                       style: TextStyle(fontSize: 20, color: Color(0xffBA0000)),
                     ),
                     RaisedButton(
@@ -318,9 +318,9 @@ class Shelf extends StatelessWidget {
           ),
         ),
 
-        // SizedBox(
-        //   height: 10,
-        // ),
+        SizedBox(
+          height: 10,
+        ),
 //
       ]),
     ));

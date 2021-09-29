@@ -80,6 +80,16 @@ flutter:
     - assets/Bed3.jpeg
     - assets/bed5.jpeg
     - assets/bed6.jpeg
+    - assets/Shelf1.jpeg
+    - assets/Shelf2.jpeg
+    - assets/Shelf3.jpeg
+    - assets/Shelf4.jpeg
+    - assets/Shelf5.jpeg
+    - assets/Table1.jpeg
+    - assets/Table2.jpeg
+    - assets/Table3.jpeg
+    - assets/Table4.jpeg
+    - assets/Table5.jpeg
     
     
   # An image asset can refer to one or more resolution-specific "variants", see
