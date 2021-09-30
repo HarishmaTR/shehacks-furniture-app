@@ -44,7 +44,7 @@ class Furniture extends StatelessWidget {
                         cursorColor: Colors.black,
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.w700),
-                        decoration: new InputDecoration(
+                        decoration: InputDecoration(
                             border: OutlineInputBorder(
                               borderSide:
                                   BorderSide(color: Colors.red, width: 5.0),
