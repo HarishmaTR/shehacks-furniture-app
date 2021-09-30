@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:furniture_app/furniture_app.dart';
 
 class Chairs extends StatelessWidget {
   @override
@@ -41,10 +42,24 @@ class Chairs extends StatelessWidget {
                         //      Navigator.push(context,
                         //         MaterialPageRoute(builder: (_) => Chairdetails()));
                       },
-                      color: Color(0xFF682704),
+                      color: Color(0xff2E1503),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                       child: Text("BUYNOW",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          )),
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (_) => Furniture()));
+                      },
+                      color: Color(0xff2E1503),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Text("ADD TO CART",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -89,10 +104,24 @@ class Chairs extends StatelessWidget {
                         //      Navigator.push(context,
                         //         MaterialPageRoute(builder: (_) => Chairdetails()));
                       },
-                      color: Color(0xFF682704),
+                      color: Color(0xff2E1503),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                       child: Text("BUYNOW",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          )),
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (_) => Furniture()));
+                      },
+                      color: Color(0xff2E1503),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Text("ADD TO CART",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -137,10 +166,24 @@ class Chairs extends StatelessWidget {
                         //      Navigator.push(context,
                         //         MaterialPageRoute(builder: (_) => Chairdetails()));
                       },
-                      color: Color(0xFF682704),
+                      color: Color(0xff2E1503),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                       child: Text("BUYNOW",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          )),
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (_) => Furniture()));
+                      },
+                      color: Color(0xff2E1503),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Text("ADD TO CART",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -185,10 +228,24 @@ class Chairs extends StatelessWidget {
                         //      Navigator.push(context,
                         //         MaterialPageRoute(builder: (_) => Chairdetails()));
                       },
-                      color: Color(0xFF682704),
+                      color: Color(0xff2E1503),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                       child: Text("BUYNOW",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          )),
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (_) => Furniture()));
+                      },
+                      color: Color(0xff2E1503),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Text("ADD TO CART",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -233,10 +290,24 @@ class Chairs extends StatelessWidget {
                         //      Navigator.push(context,
                         //         MaterialPageRoute(builder: (_) => Chairdetails()));
                       },
-                      color: Color(0xFF682704),
+                      color: Color(0xff2E1503),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10)),
                       child: Text("BUYNOW",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 16,
+                          )),
+                    ),
+                    RaisedButton(
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (_) => Furniture()));
+                      },
+                      color: Color(0xff2E1503),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Text("ADD TO CART",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,

@@ -25,6 +25,9 @@ class Password extends StatelessWidget {
                         border: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.red, width: 5.0),
                         ),
+                        focusedBorder: OutlineInputBorder(
+                            borderSide:
+                                BorderSide(color: Colors.brown.shade900)),
                         hintText: "Reset Password"),
                   )),
               SizedBox(
@@ -38,6 +41,9 @@ class Password extends StatelessWidget {
                         border: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.red, width: 5.0),
                         ),
+                        focusedBorder: OutlineInputBorder(
+                            borderSide:
+                                BorderSide(color: Colors.brown.shade900)),
                         hintText: " Confirm Password"),
                   )),
               Container(

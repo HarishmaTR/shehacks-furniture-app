@@ -1,5 +1,6 @@
 //import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:furniture_app/Dining.dart';
 import 'package:furniture_app/Sofa.dart';
 import 'package:furniture_app/cot.dart';
 import 'package:furniture_app/shelf.dart';
@@ -11,6 +12,7 @@ class Product extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.brown[700],
         title: Text('CATEGORY'),
       ),
@@ -52,8 +54,6 @@ class Product extends StatelessWidget {
                           context, MaterialPageRoute(builder: (_) => Sofa()));
                     },
                   ),
-
-                  
                 ),
               ),
               Expanded(
@@ -142,7 +142,7 @@ class Product extends StatelessWidget {
                   child: Text("Dining Set"),
                   onPressed: () {
                     Navigator.push(
-                        context, MaterialPageRoute(builder: (_) => Sofa()));
+                        context, MaterialPageRoute(builder: (_) => Dining()));
                   },
                 ),
 
